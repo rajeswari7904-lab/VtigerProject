@@ -22,7 +22,7 @@ ExtentTest test;
 	@Override
 	public void onTestStart(ITestResult result) {
 		String testname = result.getName();
-		report.createTest(testname);
+		test=report.createTest(testname);
 	}
 
 	@Override

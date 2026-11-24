@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.Vtiger.Practise.Demo"/>
+      <class name="com.Vtiger.OrganisationTest.Updatecustomer"/>
+      <class name="com.Vtiger.OrganisationTest.CreateOrganisation"/>
+      <class name="com.Vtiger.OrganisationTest.modifycustomer"/>
+      <class name="com.Vtiger.OrganisationTest.deletecustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
